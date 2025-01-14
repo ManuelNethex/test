@@ -75,7 +75,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-echo "Test insert into a field\n\n";
+//echo "Test insert into a field\n\n";
 
 ?>
 

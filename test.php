@@ -75,7 +75,25 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-echo "Test insert into a field\n\r";
+echo "Test insert into a field\n\n";
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hello, world!</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  <link rel="icon" href="favicon.png">
+</head>
+<body>
+  <h1>Test insert into a field!</h1>
+</body>
+</html>
+
+<?
 
 // Example data to insert
 $data = [
